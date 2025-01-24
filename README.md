@@ -56,7 +56,7 @@
 - Writing documentation with Doxygen
 - Best practices for code comments
 
-# Helpful Vim Commands
+### Helpful Vim Commands
 
 | Keys | Description |
 |------|-------------|
@@ -73,7 +73,7 @@
 | c | Change |
 | w | Word / forward a word |
 
-# Helpful Unix/Linux Operating System Commands
+### Helpful Unix/Linux Operating System Commands
 
 | Command | Description |
 |---------|-------------|
