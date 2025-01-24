@@ -1,0 +1,17 @@
+# Apple doesnt have gdb for aarch64 machines ... instead they have `lldb`
+
+gdb ./faulty-code
+
+run
+break causeSegmentationFault
+break infiniteLoop
+
+next # step over liens
+step # stepp into functions
+continue # continue execution
+
+print ptr
+
+catch signal SIGSEGV
+
+bt
