@@ -107,4 +107,4 @@
 | echo | Print to console; e.g. `echo "hello world!"` |
 | touch | Creates a file; e.g. `touch notes.txt` |
 | man | Print manual for a command; e.g. `man ls` |
-| ! | Last command |
+| !<smth> | Last command |
