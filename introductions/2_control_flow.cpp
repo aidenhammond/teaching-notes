@@ -1,4 +1,4 @@
-// Control Flow
+// 2. CONTROL FLOW
 // Basic intro to controlling program flow with `if` statements and loops
 
 #include <iostream> // again: for cin and cout
