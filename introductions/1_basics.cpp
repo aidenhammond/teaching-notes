@@ -1,5 +1,5 @@
 // 1. BASICS
-// An introduction basic C++ concepts like variables, input/output, and functions (note: the two slashes are comments--not code!)
+// An introduction to basic C++ concepts like variables, input/output, and functions (note: the two slashes are comments--not code!)
 
 // ==============
 // ++ Imports ++
