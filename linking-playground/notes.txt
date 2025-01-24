@@ -3,3 +3,11 @@ nm myheader.o
 
 nm main
 objdump -d main | less
+
+
+
+.o files = relocatable object files. used to combine code and data from multiple sources to create an executable or shared library
+
+executables = directly runnable programs
+
+shared library = compiled code that can be linked dynamically at runtime

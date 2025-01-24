@@ -25,6 +25,15 @@
 - special parameters/operators specific to Regex (e.g. `*`, `%`, `^$`), more information available ![here](https://www.tads.org/t3doc/doc/sysman/regex.htm)
 
 **Understanding Code Organization**
+- Steps in coding process
+    - write code
+    - create object files
+    - link object files
+    - create executable
+    - run executable
+    - spawn process
+    - spawn main thread
+    - run through executable code
 - What is linking (combining code from different documents into a single sequence).
 - `Import`/`Include` statements (e.g. `import numpy as np`).
 - Organizing code with namespaces and directories
@@ -36,8 +45,10 @@
 - Understanding compile time vs runtime code
 
 **Data Types and Memory**
+- Stack / heap
 - Constants and variables
 - Working with pointers and references
+- Allocation / deallocation
 - Arrays and indexing
 - `auto`
 
