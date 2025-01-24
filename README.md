@@ -13,6 +13,10 @@
 
 **Bash, Zsh, and Shell Scripting**
 - special parameters/operators and syntax specific to Bash/Zsh (e.g. `!$`, `$@`, `$*`)
+    - `$@` = all arguments = "$1" "$2" "$3" ... = treats each argument separately
+        - Different from `$*` treats all arguments as a single string split by spaces 
+    - `$1` = First argument, `$2` = Second argument, etc.
+    - `!$` = Last argument
 - loops and how to write/use them
 - the Pipe operator (`|`)
 
@@ -35,9 +39,10 @@
 - Constants and variables
 - Working with pointers and references
 - Arrays and indexing
+- `auto`
 
 **Flow Control and Debugging**
-- Different types of loops (while, do-while, for)
+- Different types of loops (while, do-while, for, for-in)
 - Using GDB for debugging
 - Understanding common errors like segmentation faults
 
@@ -91,3 +96,4 @@
 | echo | Print to console; e.g. `echo "hello world!"` |
 | touch | Creates a file; e.g. `touch notes.txt` |
 | man | Print manual for a command; e.g. `man ls` |
+| ! | Last command |
