@@ -1,0 +1,5 @@
+nm main.o
+nm myheader.o
+
+nm main
+objdump -d main | less
